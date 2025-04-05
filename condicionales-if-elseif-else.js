@@ -8,7 +8,7 @@ const readline = require('readline-sync')
 */
 
 /*  💡 Ejemplos: */
-Validar la mayoría de edad desde la fecha de nacimiento
+//Validar la mayoría de edad desde la fecha de nacimiento
 let fechaNacimientoTexto = readline.prompt({ prompt: 'Ingrese su fecha de nacimiento en el formato (yyyy-mm-dd): ' })
 
 let fechaNacimiento = new Date(fechaNacimientoTexto)
