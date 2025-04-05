@@ -15,11 +15,11 @@ const readline = require('readline-sync')
 /*  💡 Ejemplos: */
 // Recorrer un arreglo
 
-// const frutas = ['Mango', 'Fresa', 'Coco']
+const frutas = ['Mango', 'Fresa', 'Coco']
 
-// for (let posicion = 0; posicion < frutas.length; posicion++) {
-//     console.log(`Fruta ${posicion + 1}: ${frutas[posicion]}`)
-// }
+for (let posicion = 0; posicion < frutas.length; posicion++) {
+    console.log(`Fruta ${posicion + 1}: ${frutas[posicion]}`)
+}
 
 // Sumar todos los números de un arreglo
 
